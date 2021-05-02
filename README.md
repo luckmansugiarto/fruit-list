@@ -14,7 +14,7 @@ To run the code:
 
 You can verify whether docker initialization has been completed or not by visiting the url of the laravel application which is set to: **http://localhost:8080**. If a "page cannot be loaded" error message shows up then that means the initialization process is still in progress.
 
-There is a console application set up to be run every hour to fetch the data from external service and this cron job needs to be set up manually. To do so, follow these steps:
+There is a console application set up to be run every hour to fetch the data from https://dev.shepherd.appoly.io/fruit.json and this cron job needs to be set up manually. To do so, follow these steps:
 
 1. Access into the **app** docker container by typing in the following command: `docker exec -it app sh`
 
